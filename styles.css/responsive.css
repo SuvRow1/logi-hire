@@ -1,0 +1,27 @@
+@media screen and (max-width: 576px){
+
+ nav .fa-bars{
+display:inline-block;
+
+ }
+ .logo-bar{
+  ul{
+   display: none;
+  }
+  header-text{
+   display:flex;
+   flex-direction: column;
+  
+  }
+ }
+
+
+
+
+
+
+
+
+
+
+}
