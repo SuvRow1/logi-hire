@@ -8,11 +8,42 @@ display:inline-block;
   ul{
    display: none;
   }
-  header-text{
-   display:flex;
-   flex-direction: column;
+  .header-text{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   text-align: center;
+
+  
   
   }
+  .header-text h1{
+   font-weight: 800;
+   color: #ffffff;
+  }
+  .header-text p{
+   color: #FFF;
+   text-align: center;
+   font-family: Mulish;
+  
+  }
+ 
+  .header-text form input{
+  
+   border-radius: 8px;
+   background:#FFFFFF;
+   flex-shrink: 0;
+   border-color: #FFFFFF;
+  }
+  
+  .header-text form button{
+   
+   color:#FFFFFF ;
+   background-color:#ff5500 ;
+   border-radius: 8px;
+   border-color: #FF5400;
+  
+  }
+  
  }
 
 
