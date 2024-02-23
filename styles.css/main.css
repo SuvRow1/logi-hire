@@ -10,6 +10,7 @@
 body {
  font-family: "Mulish", sans-serif;
  font-optical-sizing: auto;
+ background-color: linear-gradient(to right, #2b9cff, #09f3ff);
 }
 
 
@@ -178,10 +179,37 @@ margin-right: auto;
 }
  
 
+/* destination content here  */
 
+/* pic collages starts here */
 
+.pic-collage{
+ margin-top: 5rem;
 
+}
+.pic-collage h1,p{
+ text-align: center;
+ text-wrap: wrap;
+ margin-bottom: 1.5rem;
+ 
+}
 
+.collage-pic1{
+ display: flex;
+ gap:25px;
+ margin-left: 125px;
+ border-radius: 16px;
+}
+.collage-pic2{
+ display: flex;
+ gap:25px;
+ margin-left: 8rem;
+ margin-top: 2rem;
+}
 
-
-
+.collage-pic3{
+ display: flex;
+ gap:1.5rem;
+ margin-left: 8rem;
+ margin-top: 2rem;
+}
