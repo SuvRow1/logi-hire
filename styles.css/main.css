@@ -226,17 +226,61 @@ margin-right: auto;
 }
 
 .why-choose-container p{
- margin-top: .5rem;
+ margin-top: 1rem;
  margin-bottom: 1.5rem;
+
 }
 .why-choose-container{
- background-color: #FF5400;
+ 
  border: 2px solid #e7a584;
  text-align: center;
+ padding: 2rem;
  margin-top: 2.8rem;
- margin-bottom: 2rem;
+ margin-bottom: 2rem;}
 
 .why-choose-card{
  display: flex;
  justify-content: space-around;
+ margin-top: 3.5rem;
+}
+.hotel-card{
+ border-radius: 16px;
+ border: 1px solid rgba(251, 181, 99, 0.20);
+ background: rgba(251, 181, 99, 0.05);
+ width: 573px;
+ height: 284px;
+ flex-shrink: 0; 
+}
+
+.map-card{
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+width: 573px;
+height: 284px;
+flex-shrink: 0;
+
+}
+.hotel-card2{
+ border-radius: 16px;
+ border: 1px solid rgba(251, 181, 99, 0.20);
+ background: rgba(251, 181, 99, 0.05);
+ width: 573px;
+ height: 284px;
+ flex-shrink: 0; 
+ margin-left: 30%;
+ margin-top: 5%;
+}
+
+/* News letter section starts here  */
+
+.newsletter{
+ border: .2rem solid #ff6461b5;
+}
+
+.newsletter-container{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 2rem;
 }
